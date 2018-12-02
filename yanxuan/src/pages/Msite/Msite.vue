@@ -55,6 +55,45 @@
           </li>
         </ul>
       </div>
+      <!--新品首发-->
+      <Block />
+      <div class="newGoodsContanier">
+        <a class="newHeader">
+          <span class="new">新品首发</span>
+          <div class="newInfo">
+            <span>更多</span>
+            <i class="iconfont icon-arrow-right"></i>
+          </div>
+        </a>
+        <ul class="newContainer">
+          <li
+            class="newImg"
+            v-for="(item,index) in homeData.newItemNewUserList"
+            :key="item.id"
+            v-if="index<=5">
+            <img :src="item.primaryPicUrl" alt="">
+            <div class="newImgInfo">
+              <span class="imgName ellipsis">{{item.name}}</span>
+              <span class="money">¥{{item.retailPrice}}</span>
+            </div>
+          </li>
+        </ul>
+
+      </div>
+      <!--人气推荐好物首发-->
+      <div class="personGoods">
+        <div class="personHead">
+          <span class="headName">人气推荐.好物精选</span>
+          <div class="lookAll">
+            <span class="allImg">
+              查看全部
+              <i class="iconfont icon-arrow-right"></i>
+            </span>
+          </div>
+        </div>
+        <PersonBaner></PersonBaner>
+
+      </div>
     </div>
   </div>
 </template>
@@ -64,6 +103,7 @@
   import {reqHomedata} from '../../api/index';
   import {mapState} from 'vuex';
   import Block from '../../components/Block/Block.vue'
+  import PersonBanner from './PersonBanner/PersonBanner.vue'
   export default {
      mounted(){
       this.$store.dispatch('getHomedata')
@@ -71,7 +111,8 @@
     components: {
       NavScroll,
       NavSwiper,
-      Block
+      Block,
+      PersonBanner
     },
     computed: {
       ...mapState(['homeData'])
@@ -138,6 +179,7 @@
       left 0px
       width 100%
       background #fff
+      margin-bottom 50px
       .salary
         box-sizing border-box
         width 100%
@@ -159,7 +201,6 @@
       .product
         background #fff
         padding  15px 30px
-        /*width 100%*/
         .proHeader
           display flex
           align-items center
@@ -188,6 +229,7 @@
           height 554px
           width 100%
           float left
+          margin-bottom 30px
           .proImg
             float left
             width 48.5%
@@ -208,4 +250,90 @@
               img
                 width 100%
                 height 100%
+      .newGoodsContanier
+        padding  15px 30px
+        margin-bottom 20px
+        display flex
+        flex-direction column
+        .newHeader
+          display flex
+          align-items center
+          height 80px
+          position relative
+          .new
+            font-size 34px
+            line-height 100px
+          .newInfo
+            position absolute
+            top 0
+            right 0
+            height 80px
+            display flex
+            align-items center
+            i
+              font-size 70px
+              color #7e8c8d
+              margin-right -22px
+            span
+              font-size 30px
+              color #666
+              margin-right -20px
+        .newContainer
+          background #fff
+          height 690px
+          width 100%
+          float left
+          .newImg
+            float left
+            width 31%
+            height 50%
+            margin 7px
+            background #f4f4f4
+            img
+              width 100%
+              height 80%
+            .newImgInfo
+              width 220px
+              .imgName
+                /*width 30px*/
+                display inline-block
+                width 100%
+                font-size 28px
+              .money
+                color red
+
+
+
+
+      .personGoods
+        display flex
+        .personHead
+          display flex
+          flex-direction column
+          justify-content center
+          align-items center
+          width 100%
+          height 300px
+          background-image url('../../assets/images/hot.png')
+          background-size 100% //图片大小为 多大
+          .headName
+            font-size 42px
+            color #D6C7A8
+          .lookAll
+            width 300px
+            height 80px
+            background #F4E9CB
+            margin-top 20px
+            display flex
+            justify-content center
+            align-items center
+            .allImg
+              color #CCBB97
+              display inline-block
+              height 80px
+              line-height 80px
+              font-size 32px
+              i
+                font-size 50px
+                color #CBCCC2
 </style>

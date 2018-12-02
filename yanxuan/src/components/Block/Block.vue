@@ -9,6 +9,7 @@
 </script>
 <style lang="stylus" rel="stylesheet/stylus">
   .block
+    display flex
     width 100%
     height 20px
     background #f4f4f4
