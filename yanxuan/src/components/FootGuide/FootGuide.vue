@@ -54,7 +54,7 @@
     left 0
     right 0
     bottom 40px
-    background-color #fff
+    background #fff
     width 100%
     height 50px
     display flex

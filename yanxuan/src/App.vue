@@ -7,10 +7,10 @@
 
 <script>
 import FootGuide from './components/FootGuide/FootGuide.vue'
-export default {
 
+export default {
   components: {
-    FootGuide
+    FootGuide,
   }
 }
 </script>

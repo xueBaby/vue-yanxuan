@@ -2,21 +2,21 @@
 *mock数据的入口js mock数据接口 生成随机数据拦截js
 */
 import Mock from 'mockjs';
-import homeData from './datahome.json';
-import navData from './datanav.json';
-import topicData from './datatopic.json';
+import HomeData from './datahome.json';
+import NavData from './datanav.json';
+import TopicData from './datatopic.json';
 
-Mock.mock('/homeData',{
+Mock.mock('/homedata',{
   code: 0 ,
-  data: homeData
+  data: HomeData
 });
-Mock.moock('/navData',{
+Mock.mock('/navdata',{
   code: 0,
-  data: navData
+  data: NavData
 });
-Mock.mock('/topicData',{
+Mock.mock('/topicdata',{
   code: 0,
-  data: topicData
+  data: TopicData
 })
 
 
