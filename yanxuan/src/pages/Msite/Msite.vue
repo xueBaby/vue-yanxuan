@@ -81,6 +81,7 @@
 
       </div>
       <!--人气推荐好物首发-->
+      <Block />
       <div class="personGoods">
         <div class="personHead">
           <span class="headName">人气推荐.好物精选</span>
@@ -91,8 +92,46 @@
             </span>
           </div>
         </div>
-        <PersonBaner></PersonBaner>
-
+        <PersonBanner />
+      </div>
+      <Block />
+      <!--严选倒计时-->
+      <div class="timer">
+        <div class="left">
+          <h3 class="title">严选限时购</h3>
+          <div class="time">
+            <span class="number">11</span>
+            <span class="colon">:</span>
+            <span class="number">30</span>
+            <span class="colon">:</span>
+            <span class="number">11</span>
+          </div>
+          <div>下一场22:00开始</div>
+        </div>
+        <div class="right">
+          <img src="../../assets/images/test2.png" alt="">
+          <div class="price">
+            <span class="now">¥42</span>
+            <span class="old">¥49</span>
+          </div>
+        </div>
+      </div>
+      <Block />
+      <div class="morePalary">
+        <img src="../../assets/images/move.jpg" alt="福利">
+      </div>
+      <div class="footer">
+        <div class="title">
+          <span class="download">下载APP</span>
+          <span class="computer">电脑版</span>
+        </div>
+        <div class="copyright">
+          <span>网易公司版权所有 © 1997-2018</span>
+          <span>食品经营许可证: JY13301080111719</span>
+        </div>
+        <div class="upArrow">
+          <i class="iconfont icon-up"></i>
+        </div>
       </div>
     </div>
   </div>
@@ -307,6 +346,7 @@
 
       .personGoods
         display flex
+        flex-direction column
         .personHead
           display flex
           flex-direction column
@@ -316,6 +356,7 @@
           height 300px
           background-image url('../../assets/images/hot.png')
           background-size 100% //图片大小为 多大
+          margin-bottom 50px
           .headName
             font-size 42px
             color #D6C7A8
@@ -336,4 +377,97 @@
               i
                 font-size 50px
                 color #CBCCC2
+      .timer
+        display flex
+        .left
+          width 50%
+          height 400px
+          display flex
+          flex-direction column
+          justify-content center
+          align-items center
+          .time
+            margin 30px
+            .number
+              color #fff
+              display inline-block
+              width 60px
+              height 60px
+              line-height 60px
+              background gray
+              text-align: center
+        .right
+          width 50%
+          height 400px
+          position relative
+          img
+            width 100%
+            height 100%
+          .price
+            position absolute
+            right 40px
+            bottom 60px
+            width 100px
+            height 100px
+            background #EDC567
+            border-radius 50%
+            text-align center
+            display flex
+            flex-direction column
+            justify-content center //换轴垂直居中
+            .now
+              color #fff
+            .old
+              color #fff
+      .morePalary
+        width 100%
+        height 400px
+        img
+          width 100%
+          height 100%
+
+    .footer
+      width 100%
+      height 300px
+      background #414141
+      .title
+        display flex
+        justify-content center
+        align-items center
+        span
+          font-size 30px
+          margin 40px
+          color #fff
+          display flex
+          justify-content center
+          align-items center
+          &.download
+           width 200px
+           height 50px
+           border 1px solid gainsboro
+          &.computer
+            width 150px
+            height 50px
+            border 1px solid gainsboro
+      .copyright
+        display flex
+        flex-direction column
+        justify-content center
+        align-items center
+        span
+          margin 10px
+      .upArrow
+        position fixed
+        bottom 100px
+        right 0
+        width 100px
+        height 100px
+        background #fff
+        border-radius 50%
+        display flex
+        justify-content  center
+        text-align center
+        .icon-up
+          font-size 60px
+          color #999
 </style>

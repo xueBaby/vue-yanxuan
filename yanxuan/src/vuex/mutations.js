@@ -3,12 +3,17 @@
  */
 
 import {
-  RECIEVE_HOMEDATA
+  RECIEVE_HOMEDATA,
+  RECEIVE_NAVDATA
 } from './mutation-types'
 
 export default {
   [RECIEVE_HOMEDATA](state, {homeData}){
     state.homeData = homeData
+  },
+  [RECEIVE_NAVDATA](state,{navData}){
+    state.navData = navData
   }
+  
   
 }

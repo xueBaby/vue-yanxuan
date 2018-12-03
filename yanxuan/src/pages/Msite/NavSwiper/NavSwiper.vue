@@ -1,6 +1,6 @@
 <template>
   <div class="nav">
-    <div class="swiper-container">
+    <div class="swiper-container" id="nav">
       <div class="swiper-wrapper">
         <div class="swiper-slide" v-for="(focus,index) in homeData.focusList"
              :key="focus.id">
@@ -56,7 +56,7 @@
     watch:{
       homeData(){
         this.$nextTick(()=>{
-          new Swiper('.swiper-container',{
+          new Swiper('#nav',{
             loop: true, // 循环模式选项
             autoplay:true,//等同于以下设置
             /*https://www.swiper.com.cn/api/autoplay/16.html*/

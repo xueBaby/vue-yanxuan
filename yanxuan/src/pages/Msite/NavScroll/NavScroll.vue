@@ -10,9 +10,6 @@
         <span>{{item}}</span>
       </li>
     </ul>
-    <!--<div class="iconBlock">-->
-      <!--<i class="iconfont icon-35_xiangxiajiantou"></i>-->
-    <!--</div>-->
   </div>
 </template>
 <script>
