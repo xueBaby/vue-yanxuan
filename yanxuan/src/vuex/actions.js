@@ -3,11 +3,13 @@
  */
 import {
   RECIEVE_HOMEDATA,
-  RECEIVE_NAVDATA
+  RECEIVE_NAVDATA,
+  RECEIVE_TOPICDATA
 } from './mutation-types'
 import {
   reqHomedata,
-  reqNavData
+  reqNavData,
+  reqTopicData
 } from '../api'
 export default {
   async getHomedata({commit}){
@@ -22,6 +24,14 @@ export default {
     if(result.code === 0){
       const navData = result.data;
       commit(RECEIVE_NAVDATA,{navData})
+    }
+  },
+  async getTopicData({commit}){
+    const result = await reqTopicData();
+    if(result.code === 0){
+      const topicData = result.data;
+      console.log(topicData)
+      commit(RECEIVE_TOPICDATA,{topicData})
     }
   }
 

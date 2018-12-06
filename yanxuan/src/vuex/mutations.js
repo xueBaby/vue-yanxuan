@@ -4,7 +4,8 @@
 
 import {
   RECIEVE_HOMEDATA,
-  RECEIVE_NAVDATA
+  RECEIVE_NAVDATA,
+  RECEIVE_TOPICDATA
 } from './mutation-types'
 
 export default {
@@ -12,7 +13,11 @@ export default {
     state.homeData = homeData
   },
   [RECEIVE_NAVDATA](state,{navData}){
-    state.navData = navData
+    state.navData = navData.categoryL1List
+  },
+  [RECEIVE_TOPICDATA](state,{topicData}){
+    console.log(topicData);
+    state.topicData = topicData
   }
   
   

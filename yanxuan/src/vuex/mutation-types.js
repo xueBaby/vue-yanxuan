@@ -3,6 +3,6 @@
  */
 export const RECIEVE_HOMEDATA = 'recieve_homedata'
 export const RECEIVE_NAVDATA = 'receive_navdata';
-// export const RECEIVE_TOPICDATA = 'receive_topicdata';
+ export const RECEIVE_TOPICDATA = 'receive_topicdata';
 
 

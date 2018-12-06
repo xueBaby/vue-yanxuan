@@ -11,9 +11,9 @@
             <img :src="item.primaryPicUrl" alt="">
           </div>
           <div class="perInfo">
-            <span class="name ellipsis">{{item.name}}</span>
+            <span class="perInfoNme ellipsis">{{item.name}}</span>
             <span class="nameDoc ellipsis">{{item.simpleDesc}}</span>
-            <span class="price">¥{{item.retailPrice}}</span>
+            <span class="money">¥{{item.retailPrice}}</span>
           </div>
         </div>
       </div>
@@ -36,7 +36,7 @@
         this.$nextTick(() => {
           new Swiper('#banner',{
             spaceBetween: 20,
-            slidesPerView: 1.2 //每页自动轮播
+            slidesPerView: 2.4 //每页自动轮播
             /*https://www.swiper.com.cn/api/autoplay/16.html*/
 
           })
@@ -69,7 +69,7 @@
           img
             width 100%
             height 100%
-        .name
+        .perInfoNme
           width 200px
           margin 10px 0
           padding 0 10px
@@ -84,16 +84,20 @@
           font-size 24px
           padding 0 10px
           color #7f7f7f
-        .price
+        .money
           padding 0 10px
           color red
           line-height 1
           font-size 28px
         &:last-of-type
+          display inline-block
           border 8px solid #f4f4f4
           height 264px
-          line-height 264px
-          text-align center
+          .price
+            color red !important
+          .nameDoc
+            font-size 24px
+            color #999
           span
             font-size 28px
             color #333333

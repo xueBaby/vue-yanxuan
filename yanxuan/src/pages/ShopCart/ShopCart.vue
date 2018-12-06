@@ -24,7 +24,7 @@
           <img src="../../assets/images/cart.png" alt="购物车">
         </div>
         <span class="add">去添加点什么吧</span>
-        <div class="login"> 登录</div>
+        <div class="login" @click="$router.replace('/profile')"> 登录</div>
       </div>
     </div>
   </div>

@@ -6,6 +6,7 @@ import VueRouter from 'vue-router';
 
 import Msite from  '../pages/Msite/Msite.vue';
 import List from  '../pages/List/List.vue';
+import PhoneOrEmileLogin from  '../pages/Profile/PhoneOrEmileLogin/PhoneOrEmileLogin.vue';
 import Profile from  '../pages/Profile/Profile.vue';
 import ShopCard from  '../pages/ShopCart/ShopCart.vue';
 import Sort from  '../pages/Sort/Sort.vue';
@@ -49,7 +50,14 @@ export default new VueRouter({
       path: '/profile',
       component: Profile,
       meta:{
-        showFood: true
+        showFood: false
+      }
+    },
+    {
+      path: '/phoneoremilelogin',
+      component: PhoneOrEmileLogin,
+      meta:{
+        showFood: false
       }
     },
     {

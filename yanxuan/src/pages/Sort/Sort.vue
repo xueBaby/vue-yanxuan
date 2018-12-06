@@ -6,58 +6,34 @@
         <span>搜索商品, 共9789款好物</span>
       </div>
     </div>
-    <div class="content">
+    <div class="content" v-if="navInfo">
       <div class="navWrapper" ref="navWrapper">
         <ul class="nav">
           <li
             class="navList"
-            v-for="(item,index) in navData.categoryL1List"
-            :key="item.id"
+            v-for="(item,index) in navData"
+            :key="item.index"
             :class="{active:current === index}"
             @click="currentIndex(index)">
             <span class="listName">{{item.name}}</span>
           </li>
         </ul>
       </div>
-      <!--<div-->
-        <!--class="navInfo"-->
-        <!--v-for="(item,index) in navData.categoryL1List"-->
-        <!--:key="item.index" >-->
-      <div class="navInfo">
+      <div class="navInfo"  v-if="navInfo">
         <div class="navInfoHead" >
-          <img src="../../assets/images/nav11.jpg" alt="">
+          <img :src="navs.url" alt="">
         </div>
         <div class="navName">
-          <!--<div class="right"></div>-->
-          <!--<span>{{item.name}}</span>-->
-          <!--<div class="left"></div>-->
           <div class="right"></div>
-          <span>推荐专区分类</span>
+          <span>{{navs.name}}</span>
           <div class="left"></div>
         </div>
-        <ul class="navList" >
-          <!--<li -->
-            <!--class="navItem"-->
-            <!--v-for="(info,index) in item.subCateList" -->
-            <!--:key="info.id" >-->
-            <!--<img :src="info.bannerUrl" />-->
-            <!--<span class="text">{{info.name}}</span>-->
-          <!--</li>-->
-          <li class="navItem">
-            <img src="../../assets/images/nav11.jpg" />
-            <span class="text">真丝满件折hahahhahaha</span>
-          </li>
-          <li class="navItem">
-            <img src="../../assets/images/nav11.jpg" />
-            <span class="text">真丝满件折hahahhahaha</span>
-          </li>
-          <li class="navItem">
-            <img src="../../assets/images/nav11.jpg" />
-            <span class="text">真丝满件折hahahhahaha</span>
-          </li>
-          <li class="navItem">
-            <img src="../../assets/images/nav11.jpg" />
-            <span class="text">真丝满件折hahahhahaha</span>
+        <ul class="navImg" >
+          <li
+            class="navItem"
+            v-for="(item,index) in navs.list">
+            <img :src="item.wapBannerUrl" />
+            <span class="text">{{item.name}}</span>
           </li>
         </ul>
       </div>
@@ -66,7 +42,7 @@
 </template>
 <script>
   import BScroll from 'better-scroll'
-  import {mapState} from 'vuex';
+  import {mapState,mapGetters} from 'vuex';
   import {reqNavData} from '../../api/index';
   export default {
     data(){
@@ -85,7 +61,12 @@
     },
     computed:{
       //需要先分发再获取
-      ...mapState(['navData'])
+      ...mapState(['navData']),
+      ...mapGetters(['navInfo']),
+      navs(){ //当前index对应的ul
+        return this.navInfo[this.current] //当前的 url
+      }
+
     },
     methods: {
       currentIndex(index){
@@ -132,11 +113,12 @@
       height 100%
       display flex
       .navWrapper
-        width 30%
-        height 1134px
+        width 26%
+        margin-bottom 200px
         overflow hidden
         .nav
-          border-right 1px solid #000
+          border-right 1px solid #999
+          height 1272px
           .navList
             height 100px
             /*background pink*/
@@ -159,10 +141,6 @@
               }
             span
               font-size 34px
-
-
-
-
       .navInfo
         width 62%
         display inline-block
@@ -192,7 +170,7 @@
             width 40px
             height 4px
             background #f4f4f4
-        .navList
+        .navImg
           width 100%
           height 500px
           display flex

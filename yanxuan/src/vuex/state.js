@@ -3,7 +3,7 @@
  */
 export default {
   homeData: {} ,//首页中的所有数据
-  navData: {}, //分类中的所有数据
-  // topicData: {}
+  navData: [], //分类中的所有数据
+  topicData: {} //识物分类列表
   
 }

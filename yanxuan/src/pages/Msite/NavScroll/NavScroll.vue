@@ -1,7 +1,7 @@
 <template>
   <div class="wrapper" ref="wrapper">
     <ul>
-      <li
+      <li v-if="navList"
         class="navItem"
         v-for="(item,index) in navList"
         :key="index"
@@ -10,6 +10,9 @@
         <span>{{item}}</span>
       </li>
     </ul>
+    <!--<div class="iconBlock">-->
+      <!--<i class="iconfont icon-35_xiangxiajiantou"></i>-->
+    <!--</div>-->
   </div>
 </template>
 <script>
@@ -46,6 +49,9 @@
     display flex
     flex-direction row
     flex-flow nowrap
+    box-sizing border-box
+    padding-bottom 0 !important
+    margin-top: 100px
     ul
       display flex
       flex-direction row

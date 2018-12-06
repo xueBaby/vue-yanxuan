@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+    <!--//读缓存-->
     <router-view />
     <FootGuide v-show="$route.meta.showFood"/>
   </div>

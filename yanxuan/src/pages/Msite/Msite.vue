@@ -7,7 +7,7 @@
           <i class="iconfont icon-sousuo"></i>
           <span>搜索商品, 共9789款好物</span>
         </div>
-        <div class="login">登录</div>
+        <div class="login" @click="$router.replace('/profile')">登录</div>
       </header>
       <NavScroll />
     </section>
@@ -98,7 +98,7 @@
       <!--严选倒计时-->
       <div class="timer">
         <div class="left">
-          <h3 class="title">严选限时购</h3>
+          <h3>严选限时购</h3>
           <div class="time">
             <span class="number">11</span>
             <span class="colon">:</span>
@@ -121,13 +121,13 @@
         <img src="../../assets/images/move.jpg" alt="福利">
       </div>
       <div class="footer">
-        <div class="title">
-          <span class="download">下载APP</span>
-          <span class="computer">电脑版</span>
+        <div class="footerUp">
+          <span class="com download">下载APP</span>
+          <span class="com computer">电脑版</span>
         </div>
         <div class="copyright">
-          <span>网易公司版权所有 © 1997-2018</span>
-          <span>食品经营许可证: JY13301080111719</span>
+          <span class="company">网易公司版权所有 © 1997-2018</span>
+          <span class="company">食品经营许可证: JY13301080111719</span>
         </div>
         <div class="upArrow">
           <i class="iconfont icon-up"></i>
@@ -141,7 +141,7 @@
   import NavSwiper from './NavSwiper/NavSwiper.vue';
   import {reqHomedata} from '../../api/index';
   import {mapState} from 'vuex';
-  import Block from '../../components/Block/Block.vue'
+//  import Block from '../../components/Block/Block.vue'
   import PersonBanner from './PersonBanner/PersonBanner.vue'
   export default {
      mounted(){
@@ -150,7 +150,6 @@
     components: {
       NavScroll,
       NavSwiper,
-      Block,
       PersonBanner
     },
     computed: {
@@ -172,11 +171,11 @@
       right 0
       z-index 5
       header
-        height 56px
         display flex
         padding 16px 30px
         display flex
         align-items center
+        position: fixed
         .logo
           width 140px
           height 40px
@@ -196,11 +195,13 @@
           background-color #ededed
           border-radius 6px
           margin 0 20px
-          i
+         i
             width 28px
             height 28px
             margin-right 6px
             color #999
+            font-size 100% !important
+            line-height 28px
           span
             color #666666
             font-size 26px
@@ -374,7 +375,7 @@
               height 80px
               line-height 80px
               font-size 32px
-              i
+              .icon-arrow-right
                 font-size 50px
                 color #CBCCC2
       .timer
@@ -427,14 +428,16 @@
           height 100%
 
     .footer
+      display flex
+      flex-direction column
       width 100%
       height 300px
       background #414141
-      .title
+      .footerUp
         display flex
         justify-content center
         align-items center
-        span
+        .com
           font-size 30px
           margin 40px
           color #fff
@@ -454,7 +457,7 @@
         flex-direction column
         justify-content center
         align-items center
-        span
+        .company
           margin 10px
       .upArrow
         position fixed

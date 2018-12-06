@@ -2,19 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e17a46d6-6ae7-4cd8-92d3-81a599150f96" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yanxuan/src/pages/Sort/NavInfo/NavInfo.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yanxuan/src/pages/List/NavSwiper/NavSwiper.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yanxuan/src/pages/List/Recommend/Recommend.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yanxuan/src/pages/List/SmallSwiper/SmallSwiper.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yanxuan/src/pages/Profile/PhoneOrEmileLogin/PhoneOrEmileLogin.vue" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yanxuan/src/App.vue" afterPath="$PROJECT_DIR$/yanxuan/src/App.vue" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yanxuan/src/api/index.js" afterPath="$PROJECT_DIR$/yanxuan/src/api/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yanxuan/src/main.js" afterPath="$PROJECT_DIR$/yanxuan/src/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yanxuan/src/pages/List/List.vue" afterPath="$PROJECT_DIR$/yanxuan/src/pages/List/List.vue" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yanxuan/src/pages/Msite/Msite.vue" afterPath="$PROJECT_DIR$/yanxuan/src/pages/Msite/Msite.vue" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yanxuan/src/pages/Msite/NavScroll/NavScroll.vue" afterPath="$PROJECT_DIR$/yanxuan/src/pages/Msite/NavScroll/NavScroll.vue" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yanxuan/src/pages/Msite/NavSwiper/NavSwiper.vue" afterPath="$PROJECT_DIR$/yanxuan/src/pages/Msite/NavSwiper/NavSwiper.vue" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yanxuan/src/pages/Msite/PersonBanner/PersonBanner.vue" afterPath="$PROJECT_DIR$/yanxuan/src/pages/Msite/PersonBanner/PersonBanner.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yanxuan/src/pages/Profile/Profile.vue" afterPath="$PROJECT_DIR$/yanxuan/src/pages/Profile/Profile.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yanxuan/src/pages/ShopCart/ShopCart.vue" afterPath="$PROJECT_DIR$/yanxuan/src/pages/ShopCart/ShopCart.vue" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yanxuan/src/pages/Sort/Sort.vue" afterPath="$PROJECT_DIR$/yanxuan/src/pages/Sort/Sort.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yanxuan/src/router/index.js" afterPath="$PROJECT_DIR$/yanxuan/src/router/index.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yanxuan/src/vuex/actions.js" afterPath="$PROJECT_DIR$/yanxuan/src/vuex/actions.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yanxuan/src/vuex/getters.js" afterPath="$PROJECT_DIR$/yanxuan/src/vuex/getters.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yanxuan/src/vuex/mutation-types.js" afterPath="$PROJECT_DIR$/yanxuan/src/vuex/mutation-types.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yanxuan/src/vuex/mutations.js" afterPath="$PROJECT_DIR$/yanxuan/src/vuex/mutations.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yanxuan/src/vuex/state.js" afterPath="$PROJECT_DIR$/yanxuan/src/vuex/state.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/yanxuan/src/pages/Sort/NavInfo/NavInfo.vue" afterPath="$PROJECT_DIR$/yanxuan/src/components/Title/Title.vue" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -29,73 +38,12 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Sort.vue" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/yanxuan/src/pages/Sort/Sort.vue">
+      <file leaf-file-name="ShopCart.vue" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/yanxuan/src/pages/ShopCart/ShopCart.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="25" column="25" lean-forward="false" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="25" />
-              <folding>
-                <element signature="n#div#0;n#div#0;n#template#0;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#div#1;n#div#0;n#template#0;n#!!top" expanded="false" />
-                <element signature="e#2184#2219#0" expanded="true" />
-                <element signature="e#2893#5321#0" expanded="false" />
-                <element signature="e#3079#3434#0" expanded="false" />
-                <element signature="e#3291#3371#0" expanded="false" />
-                <element signature="e#3395#3434#0" expanded="false" />
-                <element signature="e#3454#5321#0" expanded="false" />
-                <element signature="e#3528#4215#0" expanded="false" />
-                <element signature="e#4239#5321#0" expanded="false" />
-                <element signature="e#4395#4550#0" expanded="false" />
-                <element signature="e#4488#4550#0" expanded="false" />
-                <element signature="e#4578#4905#0" expanded="false" />
-                <element signature="e#4682#4746#0" expanded="false" />
-                <element signature="e#4933#5321#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="getters.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/yanxuan/src/vuex/getters.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="259">
-              <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+            <state relative-caret-position="222">
+              <caret line="21" column="24" lean-forward="true" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="state.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/yanxuan/src/vuex/state.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="148">
-              <caret line="4" column="11" lean-forward="false" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="actions.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/yanxuan/src/vuex/actions.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="74">
-              <caret line="19" column="29" lean-forward="true" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
-              <folding>
-                <element signature="e#44#116#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="datanav.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/yanxuan/src/mock/datanav.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="296">
-              <caret line="11" column="17" lean-forward="false" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="17" />
-              <folding>
-                <element signature="e#3948#8866#0" expanded="false" />
-                <element signature="e#8872#14336#0" expanded="false" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -116,6 +64,20 @@
       <find>focu</find>
       <find>goodsItem</find>
       <find>goodsLink</find>
+      <find>search</find>
+      <find>personGoods</find>
+      <find>allImg</find>
+      <find>span</find>
+      <find>image</find>
+      <find>footIcon</find>
+      <find>phone</find>
+      <find>login</find>
+      <find>name</find>
+      <find>telephone</find>
+      <find>we</find>
+      <find>icon-gouwuche-01</find>
+      <find>phoneRegister</find>
+      <find>procontent</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -134,10 +96,7 @@
         <option value="$PROJECT_DIR$/yanxuan/src/pages/Order/Order.vue" />
         <option value="$PROJECT_DIR$/yanxuan/src/pages/Search/Search.vue" />
         <option value="$PROJECT_DIR$/yanxuan/src/pages/ShoppingCart/ShoppingCart.vue" />
-        <option value="$PROJECT_DIR$/yanxuan/src/pages/List/List.vue" />
-        <option value="$PROJECT_DIR$/yanxuan/src/pages/Profile/Profile.vue" />
         <option value="$PROJECT_DIR$/yanxuan/src/pages/Msite/List-scroll/index.vue" />
-        <option value="$PROJECT_DIR$/yanxuan/src/router/index.js" />
         <option value="$PROJECT_DIR$/yanxuan/src/pages/Msite/Swiper/Swiper.vue" />
         <option value="$PROJECT_DIR$/yanxuan/src/vuex/mucations.js" />
         <option value="$PROJECT_DIR$/yanxuan/src/vuex/mucation-types.js" />
@@ -148,26 +107,36 @@
         <option value="$PROJECT_DIR$/yanxuan/src/vuex/index.js" />
         <option value="$PROJECT_DIR$/yanxuan/src/pages/Msite/NavSwiper/viewpager.vue" />
         <option value="$PROJECT_DIR$/yanxuan/src/mock/datahome.json" />
-        <option value="$PROJECT_DIR$/yanxuan/src/pages/ShopCart/ShopCart.vue" />
         <option value="$PROJECT_DIR$/yanxuan/src/components/FootGuide/banner.vue" />
         <option value="$PROJECT_DIR$/yanxuan/src/pages/Msite/banner.vue" />
         <option value="$PROJECT_DIR$/yanxuan/index.html" />
-        <option value="$PROJECT_DIR$/yanxuan/src/main.js" />
-        <option value="$PROJECT_DIR$/yanxuan/src/App.vue" />
         <option value="$PROJECT_DIR$/yanxuan/src/components/FootGuide/FootGuide.vue" />
         <option value="$PROJECT_DIR$/yanxuan/src/components/Block/Block.vue" />
-        <option value="$PROJECT_DIR$/yanxuan/src/pages/Msite/NavSwiper/NavSwiper.vue" />
-        <option value="$PROJECT_DIR$/yanxuan/src/pages/Msite/PersonBanner/PersonBanner.vue" />
-        <option value="$PROJECT_DIR$/yanxuan/src/pages/Msite/Msite.vue" />
         <option value="$PROJECT_DIR$/yanxuan/src/pages/Sort/NavInfo/NavInfo.vue" />
-        <option value="$PROJECT_DIR$/yanxuan/src/pages/Msite/NavScroll/NavScroll.vue" />
+        <option value="$PROJECT_DIR$/yanxuan/src/pages/Sort/classify/index.vue" />
+        <option value="$PROJECT_DIR$/yanxuan/src/vuex/getters.js" />
+        <option value="$PROJECT_DIR$/yanxuan/src/pages/Sort/Sort.vue" />
+        <option value="$PROJECT_DIR$/yanxuan/src/api/index.js" />
         <option value="$PROJECT_DIR$/yanxuan/src/vuex/state.js" />
         <option value="$PROJECT_DIR$/yanxuan/src/vuex/mutation-types.js" />
         <option value="$PROJECT_DIR$/yanxuan/src/vuex/actions.js" />
         <option value="$PROJECT_DIR$/yanxuan/src/vuex/mutations.js" />
-        <option value="$PROJECT_DIR$/yanxuan/src/api/index.js" />
-        <option value="$PROJECT_DIR$/yanxuan/src/pages/Sort/Sort.vue" />
-        <option value="$PROJECT_DIR$/yanxuan/src/vuex/getters.js" />
+        <option value="$PROJECT_DIR$/yanxuan/src/pages/Msite/NavSwiper/NavSwiper.vue" />
+        <option value="$PROJECT_DIR$/yanxuan/src/main.js" />
+        <option value="$PROJECT_DIR$/yanxuan/src/pages/List/SmallSwiper/SmallSwiper.vue" />
+        <option value="$PROJECT_DIR$/yanxuan/src/pages/List/List.vue" />
+        <option value="$PROJECT_DIR$/yanxuan/src/components/Title/Title.vue" />
+        <option value="$PROJECT_DIR$/yanxuan/src/pages/List/NavSwiper/NavSwiper.vue" />
+        <option value="$PROJECT_DIR$/yanxuan/src/pages/Msite/NavScroll/NavScroll.vue" />
+        <option value="$PROJECT_DIR$/yanxuan/src/pages/Msite/PersonBanner/PersonBanner.vue" />
+        <option value="$PROJECT_DIR$/yanxuan/src/pages/ShopCart/ShopCart.vue" />
+        <option value="$PROJECT_DIR$/yanxuan/src/pages/Msite/Msite.vue" />
+        <option value="$PROJECT_DIR$/yanxuan/src/App.vue" />
+        <option value="$PROJECT_DIR$/yanxuan/src/pages/List/Recommend/Recommend.vue" />
+        <option value="$PROJECT_DIR$/yanxuan/src/pages/Profile/Profile.vue" />
+        <option value="$PROJECT_DIR$/yanxuan/src/router/index.js" />
+        <option value="$PROJECT_DIR$/yanxuan/src/pages/Profile/PhoneOrEmileLogin/PhoneOrEmileLogin.vue" />
+        <option value="$PROJECT_DIR$/yanxuan/src/components/WeHeader/WeHeader.vue" />
       </list>
     </option>
   </component>
@@ -187,10 +156,9 @@
     <handled-path value="$PROJECT_DIR$/yanxuan/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="164" />
-    <option name="y" value="6" />
-    <option name="width" value="901" />
-    <option name="height" value="704" />
+    <option name="x" value="441" />
+    <option name="width" value="1075" />
+    <option name="height" value="728" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -301,33 +269,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="vuex" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="yanxuan" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="yanxuan" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="yanxuan" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pages" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Sort" />
+              <option name="myItemId" value="router" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -371,7 +313,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="mock" />
+              <option name="myItemId" value="pages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Msite" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -393,7 +339,33 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="api" />
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yanxuan" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yanxuan" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yanxuan" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="common" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="stylus" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -413,11 +385,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\aaavue项目\yanxuan\yanxuan\src\pages\Sort" />
       <recent name="D:\aaavue项目\yanxuan\yanxuan\src\assets\images" />
       <recent name="D:\aaavue项目\yanxuan\yanxuan\src\pages\Profile" />
       <recent name="D:\aaavue项目\yanxuan\yanxuan\src\pages\ShopCart" />
       <recent name="D:\aaavue项目\yanxuan\yanxuan\src\pages\Msite\NavSwiper" />
-      <recent name="D:\aaavue项目\yanxuan\yanxuan\src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\aaavue项目\yanxuan\yanxuan\src\pages\Msite" />
@@ -511,12 +483,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1543476053909</updated>
-      <workItem from="1543476055336" duration="164928000" />
+      <workItem from="1543476055336" duration="263363000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="164928000" />
+    <option name="totallyTimeSpent" value="263363000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -528,17 +500,17 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="164" y="6" width="901" height="704" extended-state="0" />
+    <frame x="441" y="0" width="1075" height="728" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27114716" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17766498" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16104147" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1764706" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.11217641" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16287215" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24369748" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -549,7 +521,7 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1764706" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -557,8 +529,8 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3092437" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12847222" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33384854" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18565401" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.11217641" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -578,7 +550,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/yanxuan/src/pages/Msite/Msite.vue</url>
-          <line>215</line>
+          <line>216</line>
           <properties />
           <option name="timeStamp" value="2" />
         </line-breakpoint>
@@ -588,182 +560,18 @@
           <properties />
           <option name="timeStamp" value="3" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/yanxuan/src/pages/List/Recommend/Recommend.vue</url>
+          <line>3</line>
+          <properties />
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="5" />
+      <option name="time" value="7" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/yanxuan/src/mock/datatopic.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yanxuan/src/rem.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="16" column="1" lean-forward="false" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yanxuan/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-148">
-          <caret line="17" column="8" lean-forward="false" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yanxuan/src/pages/Msite/NavSwiper/viewpager.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="17" column="29" lean-forward="true" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yanxuan/src/pages/Msite/NavSwiper/Banner.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="86" column="14" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="124" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yanxuan/src/mock/json数据的简单说明.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="74">
-          <caret line="2" column="20" lean-forward="false" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yanxuan/src/pages/Profile/Shopcart.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="130" column="29" lean-forward="false" selection-start-line="130" selection-start-column="29" selection-end-line="130" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yanxuan/src/pages/ShopCart/ShopCart.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-287">
-          <caret line="59" column="17" lean-forward="false" selection-start-line="59" selection-start-column="17" selection-end-line="59" selection-end-column="17" />
-          <folding>
-            <element signature="n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="false" />
-            <element signature="e#1754#2116#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yanxuan/src/pages/Profile/Profile.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="37">
-          <caret line="2" column="7" lean-forward="false" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yanxuan/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="8" column="56" lean-forward="true" selection-start-line="8" selection-start-column="56" selection-end-line="8" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yanxuan/src/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding>
-            <element signature="e#54#82#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yanxuan/src/components/FootGuide/FootGuide.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="67" column="28" lean-forward="false" selection-start-line="67" selection-start-column="28" selection-end-line="67" selection-end-column="28" />
-          <folding>
-            <element signature="n#a#2;n#footer#0;n#template#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yanxuan/src/components/Block/Block.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="13" column="15" lean-forward="true" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yanxuan/src/assets/images/hot.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yanxuan/src/mock/datahome.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="6437" column="21" lean-forward="true" selection-start-line="6437" selection-start-column="21" selection-end-line="6437" selection-end-column="21" />
-          <folding>
-            <element signature="e#16#87880#0" expanded="false" />
-            <element signature="e#260#9156#0" expanded="false" />
-            <element signature="e#44772#53112#0" expanded="false" />
-            <element signature="n#!!block;n#flashSaleIndexVO#0;n#!!top" expanded="false" />
-            <element signature="e#88204#97487#0" expanded="false" />
-            <element signature="e#89354#90616#0" expanded="false" />
-            <element signature="e#90622#91860#0" expanded="false" />
-            <element signature="e#91866#93112#0" expanded="false" />
-            <element signature="e#93118#94112#0" expanded="false" />
-            <element signature="e#94118#95258#0" expanded="false" />
-            <element signature="e#95264#96315#0" expanded="false" />
-            <element signature="e#96321#97483#0" expanded="false" />
-            <element signature="e#97531#161624#0" expanded="false" />
-            <element signature="e#161643#174023#0" expanded="false" />
-            <element signature="e#174049#186429#0" expanded="false" />
-            <element signature="e#186455#198835#0" expanded="false" />
-            <element signature="e#198857#199290#0" expanded="false" />
-            <element signature="e#211529#219414#0" expanded="false" />
-            <element signature="e#219444#227329#0" expanded="false" />
-            <element signature="n#!!block;n#saleIndexVO#0;n#!!top" expanded="false" />
-            <element signature="e#227480#255336#0" expanded="false" />
-            <element signature="e#255353#256546#0" expanded="false" />
-            <element signature="e#256563#257928#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yanxuan/src/pages/Msite/NavSwiper/NavSwiper.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1332">
-          <caret line="58" column="26" lean-forward="false" selection-start-line="58" selection-start-column="26" selection-end-line="58" selection-end-column="26" />
-          <folding>
-            <element signature="e#428#779#0" expanded="false" />
-            <element signature="e#903#930#0" expanded="false" />
-            <element signature="e#1039#1308#0" expanded="false" />
-            <element signature="e#1457#1855#0" expanded="false" />
-            <element signature="e#1604#1740#0" expanded="false" />
-            <element signature="e#2285#2742#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yanxuan/src/assets/images/bg.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/yanxuan/src/assets/images/cart.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -804,21 +612,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/yanxuan/src/pages/Msite/PersonBanner/PersonBanner.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="53" column="4" lean-forward="false" selection-start-line="53" selection-start-column="4" selection-end-line="53" selection-end-column="4" />
-          <folding>
-            <element signature="e#770#797#0" expanded="true" />
-            <element signature="e#1293#2376#0" expanded="false" />
-            <element signature="e#1528#1672#0" expanded="false" />
-            <element signature="e#1697#1915#0" expanded="false" />
-            <element signature="e#1943#2062#0" expanded="false" />
-            <element signature="e#2088#2171#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/yanxuan/src/assets/images/nav11.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -849,24 +642,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/yanxuan/src/pages/Msite/banner.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="9" column="35" lean-forward="false" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="35" />
-          <folding>
-            <element signature="e#483#933#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yanxuan/src/pages/Sort/NavInfo/NavInfo.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="8" column="14" lean-forward="true" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/yanxuan/src/static/css/reset.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3441">
@@ -877,50 +652,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/yanxuan/src/common/stylus/mixins.styl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="74">
-          <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yanxuan/static/css/reset.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-296">
-          <caret line="22" column="9" lean-forward="false" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yanxuan/src/vuex/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="12" column="19" lean-forward="false" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yanxuan/src/vuex/mutation-types.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="4" column="28" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/yanxuan/src/api/ajax.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yanxuan/src/api/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
-          <caret line="5" column="71" lean-forward="false" selection-start-line="5" selection-start-column="71" selection-end-line="5" selection-end-column="71" />
           <folding />
         </state>
       </provider>
@@ -933,30 +668,303 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/yanxuan/src/vuex/mutations.js">
+    <entry file="file://$PROJECT_DIR$/yanxuan/src/mock/datanav.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111">
+          <caret line="21" column="18" lean-forward="false" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="18" />
+          <folding>
+            <element signature="e#505#1049#0" expanded="false" />
+            <element signature="e#3948#8866#0" expanded="false" />
+            <element signature="e#8872#14336#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yanxuan/src/vuex/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="12" column="19" lean-forward="false" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yanxuan/src/pages/Sort/classify/index.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="700">
+          <caret line="62" column="39" lean-forward="false" selection-start-line="62" selection-start-column="31" selection-end-line="62" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yanxuan/src/pages/Sort/classify/classInfo/classInfo.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yanxuan/src/pages/Sort/NavInfo/NavInfo.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="8" column="14" lean-forward="true" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yanxuan/src/vuex/getters.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="18" column="27" lean-forward="false" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
+          <folding>
+            <element signature="e#45#63#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yanxuan/src/pages/Msite/banner.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="9" column="35" lean-forward="false" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="35" />
+          <folding>
+            <element signature="e#483#933#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yanxuan/src/rem.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yanxuan/src/vuex/mutation-types.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="5" column="31" lean-forward="false" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yanxuan/src/vuex/actions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="32" column="27" lean-forward="false" selection-start-line="32" selection-start-column="27" selection-end-line="32" selection-end-column="27" />
+          <folding>
+            <element signature="e#44#137#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yanxuan/src/vuex/state.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="222">
-          <caret line="14" column="18" lean-forward="true" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+          <caret line="6" column="24" lean-forward="true" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yanxuan/src/vuex/mutations.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="18" column="27" lean-forward="true" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
           <folding>
-            <element signature="e#24#96#0" expanded="true" />
+            <element signature="e#24#117#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yanxuan/src/api/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="6" column="25" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yanxuan/src/pages/Msite/NavSwiper/NavSwiper.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="86" column="16" lean-forward="false" selection-start-line="86" selection-start-column="16" selection-end-line="86" selection-end-column="16" />
+          <folding>
+            <element signature="e#428#779#0" expanded="false" />
+            <element signature="e#903#930#0" expanded="false" />
+            <element signature="e#1380#1881#0" expanded="false" />
+            <element signature="e#1604#1740#0" expanded="false" />
+            <element signature="e#2143#2282#0" expanded="false" />
+            <element signature="e#2285#2742#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yanxuan/src/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="74">
+          <caret line="8" column="8" lean-forward="false" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+          <folding>
+            <element signature="e#8#30#0" expanded="false" />
+            <element signature="e#54#82#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yanxuan/src/pages/List/SmallSwiper/SmallSwiper.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="38" column="4" lean-forward="false" selection-start-line="38" selection-start-column="4" selection-end-line="38" selection-end-column="4" />
+          <folding>
+            <element signature="e#530#558#0" expanded="false" />
+            <element signature="e#888#1891#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yanxuan/static/css/reset.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="93" column="9" lean-forward="false" selection-start-line="93" selection-start-column="1" selection-end-line="93" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yanxuan/src/mock/datatopic.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="30" column="22" lean-forward="true" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
+          <folding>
+            <element signature="e#15#660#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yanxuan/src/components/Title/Title.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="5" column="11" lean-forward="true" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yanxuan/src/pages/List/NavSwiper/NavSwiper.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="334">
+          <caret line="109" column="0" lean-forward="true" selection-start-line="109" selection-start-column="0" selection-end-line="109" selection-end-column="0" />
+          <folding>
+            <element signature="e#727#755#0" expanded="true" />
+            <element signature="e#1739#1798#0" expanded="false" />
+            <element signature="e#2168#2540#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yanxuan/src/pages/Sort/Sort.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="82" column="0" lean-forward="false" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="42" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#template#0;n#!!top" expanded="false" />
+            <element signature="e#2089#2585#0" expanded="false" />
+            <element signature="e#2442#2522#0" expanded="false" />
+            <element signature="e#2546#2585#0" expanded="false" />
+            <element signature="e#3572#3727#0" expanded="false" />
+            <element signature="e#3665#3727#0" expanded="false" />
+            <element signature="e#3755#4082#0" expanded="false" />
+            <element signature="e#3859#3923#0" expanded="false" />
+            <element signature="e#4109#4497#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yanxuan/src/pages/Msite/PersonBanner/PersonBanner.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="68" column="13" lean-forward="true" selection-start-line="68" selection-start-column="13" selection-end-line="68" selection-end-column="13" />
+          <folding>
+            <element signature="n#script#0;n#!!top" expanded="false" />
+            <element signature="e#776#803#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/yanxuan/src/App.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="10" column="16" lean-forward="false" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+        <state relative-caret-position="222">
+          <caret line="6" column="11" lean-forward="true" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yanxuan/node_modules/vue-template-compiler/browser.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="2244" column="1558" lean-forward="false" selection-start-line="2244" selection-start-column="1558" selection-end-line="2244" selection-end-column="1558" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yanxuan/src/pages/List/List.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-37">
+          <caret line="8" column="15" lean-forward="true" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
+          <folding>
+            <element signature="e#269#331#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yanxuan/src/pages/List/Recommend/Recommend.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3663">
+          <caret line="99" column="17" lean-forward="true" selection-start-line="99" selection-start-column="17" selection-end-line="99" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yanxuan/src/pages/Msite/NavScroll/NavScroll.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="53" column="19" lean-forward="false" selection-start-line="53" selection-start-column="19" selection-end-line="53" selection-end-column="19" />
+          <folding>
+            <element signature="e#1605#1882#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yanxuan/src/router/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="56" column="33" lean-forward="true" selection-start-line="56" selection-start-column="33" selection-end-line="56" selection-end-column="33" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#16#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yanxuan/src/pages/Profile/PhoneOrEmileLogin/PhoneOrEmileLogin.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="51" column="11" lean-forward="false" selection-start-line="51" selection-start-column="11" selection-end-line="51" selection-end-column="11" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#0;n#div#0;n#template#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#div#0;n#div#0;n#template#0;n#!!top" expanded="false" />
+            <element signature="e#1596#2458#0" expanded="false" />
+            <element signature="e#2046#2374#0" expanded="false" />
+            <element signature="e#2412#2456#0" expanded="false" />
+            <element signature="e#2484#2924#0" expanded="false" />
+            <element signature="e#2524#2696#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/yanxuan/src/pages/Msite/Msite.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="147" column="39" lean-forward="false" selection-start-line="147" selection-start-column="28" selection-end-line="147" selection-end-column="39" />
+        <state relative-caret-position="407">
+          <caret line="11" column="19" lean-forward="true" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
           <folding>
-            <element signature="n#div#0;n#div#0;n#template#0;n#!!top" expanded="false" />
             <element signature="n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="false" />
             <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="false" />
             <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="false" />
@@ -965,102 +973,57 @@
             <element signature="n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#template#0;n#!!top" expanded="false" />
             <element signature="n#div#2;n#div#0;n#div#0;n#template#0;n#!!top" expanded="false" />
             <element signature="n#a#0;n#div#2;n#div#0;n#div#0;n#template#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#3;n#div#0;n#div#0;n#template#0;n#!!top" expanded="false" />
             <element signature="n#div#4;n#div#0;n#div#0;n#template#0;n#!!top" expanded="false" />
             <element signature="n#div#1;n#div#4;n#div#0;n#div#0;n#template#0;n#!!top" expanded="false" />
             <element signature="n#div#5;n#div#0;n#div#0;n#template#0;n#!!top" expanded="false" />
             <element signature="n#div#6;n#div#0;n#div#0;n#template#0;n#!!top" expanded="false" />
             <element signature="n#div#2;n#div#6;n#div#0;n#div#0;n#template#0;n#!!top" expanded="false" />
-            <element signature="e#3986#4036#0" expanded="true" />
-            <element signature="e#5215#5652#0" expanded="false" />
-            <element signature="e#5678#5846#0" expanded="false" />
-            <element signature="e#5866#11032#0" expanded="false" />
-            <element signature="e#6001#6414#0" expanded="false" />
-            <element signature="e#6438#7690#0" expanded="false" />
-            <element signature="e#6510#7045#0" expanded="false" />
-            <element signature="e#7076#7690#0" expanded="false" />
-            <element signature="e#7724#8957#0" expanded="false" />
-            <element signature="e#7850#8388#0" expanded="false" />
-            <element signature="e#8985#9877#0" expanded="false" />
-            <element signature="e#9899#10918#0" expanded="false" />
-            <element signature="e#10114#10350#0" expanded="false" />
-            <element signature="e#10376#10918#0" expanded="false" />
-            <element signature="e#10527#10918#0" expanded="false" />
-            <element signature="e#10945#11032#0" expanded="false" />
-            <element signature="e#11127#11576#0" expanded="false" />
-            <element signature="e#11221#11576#0" expanded="false" />
-            <element signature="e#11761#12045#0" expanded="false" />
+            <element signature="e#4052#4102#0" expanded="true" />
+            <element signature="e#5803#5971#0" expanded="false" />
+            <element signature="e#6126#6539#0" expanded="false" />
+            <element signature="e#6563#7815#0" expanded="false" />
+            <element signature="e#6635#7170#0" expanded="false" />
+            <element signature="e#7201#7815#0" expanded="false" />
+            <element signature="e#7849#9082#0" expanded="false" />
+            <element signature="e#7975#8513#0" expanded="false" />
+            <element signature="e#10517#11059#0" expanded="false" />
+            <element signature="e#10668#11059#0" expanded="false" />
+            <element signature="e#11086#11173#0" expanded="false" />
+            <element signature="e#11956#12240#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/yanxuan/src/vuex/actions.js">
+    <entry file="file://$PROJECT_DIR$/yanxuan/src/pages/Profile/Profile.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="74">
-          <caret line="19" column="29" lean-forward="true" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
+        <state relative-caret-position="1332">
+          <caret line="36" column="12" lean-forward="true" selection-start-line="36" selection-start-column="12" selection-end-line="36" selection-end-column="12" />
           <folding>
-            <element signature="e#44#116#0" expanded="true" />
+            <element signature="e#2490#2822#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/yanxuan/src/pages/Msite/NavScroll/NavScroll.vue">
+    <entry file="file://$PROJECT_DIR$/yanxuan/src/components/WeHeader/WeHeader.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="19" column="25" lean-forward="true" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
-          <folding>
-            <element signature="e#1395#1672#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yanxuan/src/pages/Sort/Sort.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="25" column="25" lean-forward="false" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="25" />
-          <folding>
-            <element signature="n#div#0;n#div#0;n#template#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#1;n#div#0;n#template#0;n#!!top" expanded="false" />
-            <element signature="e#2184#2219#0" expanded="true" />
-            <element signature="e#2893#5321#0" expanded="false" />
-            <element signature="e#3079#3434#0" expanded="false" />
-            <element signature="e#3291#3371#0" expanded="false" />
-            <element signature="e#3395#3434#0" expanded="false" />
-            <element signature="e#3454#5321#0" expanded="false" />
-            <element signature="e#3528#4215#0" expanded="false" />
-            <element signature="e#4239#5321#0" expanded="false" />
-            <element signature="e#4395#4550#0" expanded="false" />
-            <element signature="e#4488#4550#0" expanded="false" />
-            <element signature="e#4578#4905#0" expanded="false" />
-            <element signature="e#4682#4746#0" expanded="false" />
-            <element signature="e#4933#5321#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yanxuan/src/vuex/state.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="4" column="11" lean-forward="false" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+        <state relative-caret-position="116">
+          <caret line="17" column="8" lean-forward="true" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/yanxuan/src/mock/datanav.json">
+    <entry file="file://$PROJECT_DIR$/yanxuan/src/common/stylus/mixins.styl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="11" column="17" lean-forward="false" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="17" />
-          <folding>
-            <element signature="e#3948#8866#0" expanded="false" />
-            <element signature="e#8872#14336#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="74">
+          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="25" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/yanxuan/src/vuex/getters.js">
+    <entry file="file://$PROJECT_DIR$/yanxuan/src/pages/ShopCart/ShopCart.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        <state relative-caret-position="222">
+          <caret line="21" column="24" lean-forward="true" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
           <folding />
         </state>
       </provider>
